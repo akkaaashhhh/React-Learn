@@ -1,0 +1,24 @@
+main {
+    padding: 57px 35px;
+    color: white;
+    background-color: #282D35;
+}
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.03em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.main--facts{
+    margin-top: 46px;
+    max-width: 400px;
+}
+.main--facts >li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+.main--facts >li::marker{
+    font-size:1.4rem;
+    color: #61DAFB;
+}
